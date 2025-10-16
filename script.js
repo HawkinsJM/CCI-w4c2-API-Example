@@ -20,7 +20,7 @@ function checkForAstronauts(button) {
       // Update the Message
       document.getElementById(
         "status"
-      ).innerHTML = `Whoa there are ${data.number} people in space rn!!`;
+      ).innerHTML = `Whoawhoa there are ${data.number} people in space rn!!`;
 
       // Add each Astronaut to their craft
       var astros = data.people;
